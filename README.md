@@ -1,38 +1,66 @@
-Active Directory Home Lab (Windows + Samba)
+🖥️ Active Directory Home Lab (Samba + Windows)
 
-Overview
+📌 Overview
 
-This project documents a hands-on Active Directory lab built using:
-	•	Windows domain-joined workstation
-	•	Samba Linux Domain Controller
-	•	Group Policy deployment and testing
-	•	SYSVOL and LDAP troubleshooting
+This project documents the build and configuration of a hybrid Active Directory lab using:
+	•	Linux Samba Domain Controller
+	•	Windows 10/11 domain-joined workstation
+	•	DNS + Group Policy management
+	•	OU structure and security group verification
 
-The goal of this lab is to demonstrate practical understanding of:
-	•	Domain architecture
-	•	Group Policy Objects (GPOs)
-	•	Domain authentication and OU structure
-	•	Real troubleshooting workflows in a mixed Windows/Linux AD environment
+The goal of this lab was to simulate real enterprise identity infrastructure and practice troubleshooting authentication, DNS, and policy deployment.
+⸻
+
+🏗️ Lab ArchitectureComponents
+	•	Samba AD Domain Controller (Linux)
+	•	Windows workstation joined to domain
+	•	Virtual internal network
 
 ⸻
 
-Lab Environment
-	•	Domain: lab.local
-	•	Domain Controller: Samba Linux server
-	•	Client: Windows 10/11 domain-joined workstation
-	•	Tools Used:
-	•	gpupdate / gpreport / gpresult
-	•	samba-tool
-	•	ldbsearch / ldbedit
-	•	SYSVOL inspection
-	•	PowerShell + Bash
+🔧 Key Skills Demonstrated
+	•	Active Directory domain deployment (Samba)
+	•	DNS configuration and validation
+	•	Domain join troubleshooting
+	•	OU structure creation
+	•	Group Policy linking via CLI
+	•	gpresult validation on Windows
+	•	Linux/Windows interoperability
+	•	Identity infrastructure troubleshooting
 
 ⸻
 
-Skills Demonstrated
-	•	Created and linked domain GPOs
-	•	Configured startup scripts via SYSVOL
-	•	Diagnosed GPO filtering and replication issues
-	•	Verified policy application from Windows client
-	•	Navigated LDAP directory structure manually
-	•	Troubleshot permissions, inheritance, and policy versions
+🖼️ Screenshots
+
+Domain Join Confirmation
+DNS Resolution Check
+Samba GPO Link Confirmation
+Windows Policy Verification
+⸻
+
+📜 Scripts
+
+Automation scripts used in this lab:
+	•	Domain join PowerShell automation
+	•	Samba GPO linking commands
+	•	Startup script testing
+
+See /scripts directory.
+
+⸻
+
+🎯 Purpose of This Lab
+
+This project was created to:
+	•	Reinforce Active Directory fundamentals
+	•	Practice enterprise troubleshooting workflows
+	•	Build demonstrable hands-on experience for IT roles
+	•	Create a portfolio project for technical interviews
+
+⸻
+
+👤 Author
+
+Anthony Mora
+IT Support / Helpdesk Technician
+GitHub Profile￼
