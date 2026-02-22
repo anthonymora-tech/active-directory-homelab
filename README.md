@@ -59,6 +59,10 @@ This project was created to:
 
 ⸻
 
+## Lab Architecture
+
+![Lab Diagram](diagram/active-directory-lab-diagram.png)
+
 👤 Author
 
 Anthony Mora
